@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="encadeamento-exterior-disco"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="encadeamento-exterior-disco">
+				<Option output="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/encadeamento-exterior-disco.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 encadeamento-exterior-disco"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="encadeamento-exterior-disco/fast">
+				<Option output="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/encadeamento-exterior-disco.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/."/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 encadeamento-exterior-disco/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/Makefile">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cliente.c">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/cliente.h">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/compartimento_hash.c">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/compartimento_hash.h">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/encadeamento_exterior.c">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/encadeamento_exterior.h">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/lista_clientes.c">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/lista_clientes.h">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/lista_compartimentos.c">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/lista_compartimentos.h">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/test_encadeamento_exterior.c">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/ufftest.h">
+			<Option target="encadeamento-exterior-disco"/>
+		</Unit>
+		<Unit filename="C:/Users/Aluno.L306-5A.048/Downloads/encadeamento-exterior-disco/encadeamento-exterior-disco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
