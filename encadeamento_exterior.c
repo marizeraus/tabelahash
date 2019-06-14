@@ -69,6 +69,19 @@ int insere(int cod_cli, char *nome_cli, char *nome_arquivo_hash, char *nome_arqu
 	    comp = le_compartimento(arqhash);
         FILE *arqdados = fopen(nome_arquivo_dados, "rb+");
         int cont=0;
+        imprime_compartimento(comp);
+        printf("\n\n");
+        if(comp->prox==-1){
+            fseek(arqdados, 0, SEEK_END);
+            int pos = ftell(arqdados)/tamanho_cliente();
+            salva_cliente(cliente1, arqdados);
+            comp->prox=pos;
+            fseek(arqhash, pos*tamanho_compartimento(), SEEK_SET);
+            salva_compartimento(comp, arqhash);
+            fseek(arqhash, pos*tamanho_compartimento(), SEEK_SET);
+            imprime_compartimento(le_compartimento(arqhash));
+            return pos;
+        }
         while(!feof(arqdados)){
             le_cliente(arqdados);
             cont++;
@@ -91,31 +104,10 @@ int exclui(int cod_cli, char *nome_arquivo_hash, char *nome_arquivo_dados, int m
         fseek(f, pont * tamanho_cliente(), SEEK_SET);
         TCliente *t = le_cliente(f);
         rewind(f);
-        FILE *aux = fopen("aux.dat", "wb");
-        TCliente *cliaux;
-        cliaux = le_cliente(f);
-        while (cliaux!=NULL) {
-            if(cliaux!=NULL){
-                printf("b");
-            if (!cmp_cliente(t, cliaux)) {
-                salva_cliente(cliaux, aux);
-            } else {
-                t->ocupado = 0;
-                salva_cliente(t, aux);
-            }
-                cliaux = le_cliente(f);
-            }
-        }
-        fclose(f);
-        fclose(aux);
-        f = fopen(nome_arquivo_dados, "wb");
-        aux = fopen("AUX.dat", "rb");
-        cliaux = le_cliente(aux);
-        while (cliaux!=NULL) {
-            printf("a");
-            salva_cliente(cliaux, f);
-            cliaux = le_cliente(aux);
-        }
+        t->ocupado = 0;
+        fseek(f, pont * tamanho_cliente(), SEEK_SET);
+        salva_cliente(t, f);
+        rewind(f);
         return pont;
     }
     return -1;
