@@ -70,17 +70,15 @@ int insere(int cod_cli, char *nome_cli, char *nome_arquivo_hash, char *nome_arqu
         FILE *arqdados = fopen(nome_arquivo_dados, "rb+");
         int cont=0;
         imprime_compartimento(comp);
-        printf("\n\n");
         if(comp->prox==-1){
             fseek(arqdados, 0, SEEK_END);
-            int pos = ftell(arqdados)/tamanho_cliente();
+            int pos2 = ftell(arqdados)/tamanho_cliente();
             salva_cliente(cliente1, arqdados);
-            comp->prox=pos;
+            comp->prox=pos2;
+            rewind(arqhash);
             fseek(arqhash, pos*tamanho_compartimento(), SEEK_SET);
             salva_compartimento(comp, arqhash);
-            fseek(arqhash, pos*tamanho_compartimento(), SEEK_SET);
-            imprime_compartimento(le_compartimento(arqhash));
-            return pos;
+            return pos2;
         }
         while(!feof(arqdados)){
             le_cliente(arqdados);
